@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import styled from "@emotion/styled";
 import ScrollAnimation from "react-animate-on-scroll";
+import { userInfo } from "../../data/ProjectData"
 
 const SocialContainer = styled.div`
   position: fixed;
@@ -58,7 +59,7 @@ function FixSocialIcon() {
         <ul>
           <li className="item">
             <a
-              href="https://www.linkedin.com/in/pedro-sales-muniz"
+              href={userInfo.linkedInUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -67,7 +68,7 @@ function FixSocialIcon() {
           </li>
           <li className="item">
             <a
-              href="https://github.com/salesp07"
+              href={userInfo.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
             >

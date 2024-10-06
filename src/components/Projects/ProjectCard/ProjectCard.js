@@ -19,7 +19,7 @@ function ProjectCard() {
               <img src={list.img} alt={list.name} />
             </CardLeft>
             <CardRight>
-              <h4>{list.title}</h4>
+              <h1>{list.title}</h1>
               <p>{list.description}</p>
               <TechCardContainer>
                 {list.tech_stack.map((tech, index) => (

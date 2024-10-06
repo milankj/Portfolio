@@ -1,49 +1,49 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/ykte-feature-graphic.png",
-    title: "YouKnowTheEnding",
+    img: "/flutter.png",
+    title: "SVAC",
     description:
-      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
+      "A mobile app for video merging and compression in NodeJs that leverages efficient processing techniques to enhance performance and reduce file sizes while maintaining high video quality.",
+    tech_stack: ["Flutter", "NodeJs", "ffmpeg"],
     github_url: "",
-    demo_url: "https://youknowtheending.net/",
+    demo_url: "",
   },
   {
-    img: "/renr-responsive.png",
-    title: "RENR Safety App",
+    img: "/familytree.png",
+    title: "Family Tree",
     description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
+      "A web application that notifies users about nearby family events based on collected data, enhancing family connectivity and engagement through timely updates and personalized alerts.",
+    tech_stack: ["React", "NodeJs", "MongoDB"],
     github_url: "",
-    demo_url: "https://renr-bcit.web.app/",
+    demo_url: "",
   },
   {
-    img: "/mymind-responsive.png",
-    title: "MyMind",
+    img: "/doc-manager.png",
+    title: "Doc Manager",
     description:
-      "An app where users can purchase online therapy sessions and chat with their therapists.",
-    tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
-    demo_url: "https://mymindweb.vercel.app/",
+      "An all-in-one web application for managing all your cloud-based storage services, providing seamless access and organization of files from a single platform.",
+    tech_stack: ["Vue.js", "NodeJs", "MongoDB", "GoogleAPIs", "DropBoxAPIs"],
+    github_url: "",
+    demo_url: "",
   },
   {
-    img: "/pokedex-responsive.png",
-    title: "Pokedex",
+    img: "/appsheet-survey.png",
+    title: "Survey",
     description:
-      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
-    demo_url: "https://pokedex-salesp07.netlify.app/",
+      "An AppSheet application featuring a complex survey form with conditional fields that dynamically adjust based on user input, and generates a comprehensive Google Slides report upon completion.",
+    tech_stack: ["Appsheet", "Appscript"],
+    github_url: "",
+    demo_url: "",
   },
   {
-    img: "/jobDetect.png",
-    title: "JobDetect",
+    img: "/gizmino.png",
+    title: "Gizmino",
     description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
-    demo_url: "https://jobdetective.onrender.com/",
+      "A web application interface for controlling IoT devices, offering real-time monitoring and seamless management of connected devices through an intuitive, user-friendly platform.",
+    tech_stack: ["React", "NodeJs", "MQTT", "RabbitMQ"],
+    github_url: "",
+    demo_url: "",
   },
 ];
 
@@ -63,75 +63,88 @@ export const stackList = [
     name: "JavaScript",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    name: "ReactJS",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
-    name: "NextJs",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
     name: "Typescript",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
-    name: "Git",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    name: "ReactJS",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    name: "React Native",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+    name: "Redux",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/angular/angular-original.svg",
+    name: "Angular",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg",
+    name: "Vue.js",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
     name: "NodeJS",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
-    name: "Firebase",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
     name: "MongoDB",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-    name: "Python",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
-    name: "Flask",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-    name: "C",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-    name: "Java",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
     name: "MySQL",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
-    name: "Bootstrap",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
+    name: "PostgreSql",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
-    name: "Material UI",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/rabbitmq/rabbitmq-original.svg",
+    name: "RabbitMq",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
-    name: "Figma",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+    name: "Git",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
-    name: "TailwindCSS",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+    name: "AWS",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
-    name: "VS Code",
-  },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+  //   name: "C",
+  // },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+  //   name: "Java",
+  // },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
+  //   name: "Bootstrap",
+  // },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
+  //   name: "Material UI",
+  // },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
+  //   name: "Figma",
+  // },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
+  //   name: "TailwindCSS",
+  // },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
+  //   name: "VS Code",
+  // },
 ];
+
+export const userInfo = {
+  fullName: "Milan K Jain",
+  firstName: "Milan",
+  education: "Btech",
+  email: "milanjain005@gmail.com",
+  githubUrl: "https://github.com/milankj",
+  linkedInUrl: "https://www.linkedin.com/in/milan-k-jain-798395242/"
+}

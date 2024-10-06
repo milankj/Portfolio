@@ -3,6 +3,7 @@ import { ContactWrapper, Email } from "./ContactElements";
 import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
 import Zoom from '@mui/material/Zoom';
+import { userInfo } from '../../data/ProjectData';
 
 import ScrollAnimation from "react-animate-on-scroll";
 function Contact() {
@@ -24,7 +25,7 @@ function Contact() {
           <div className="BigCard">
             <Email>
               <div style={{ display: 'flex', alignItems: 'center', columnGap: '20px', rowGap: '10px', flexWrap: 'wrap', justifyContent: 'center' }} >
-                <span>pedro.sales.muniz@gmail.com</span>
+                <span>{userInfo.email}</span>
                 <Tooltip
                   PopperProps={{
                     disablePortal: true,
@@ -38,14 +39,14 @@ function Contact() {
                   disableTouchListener
                   placement="bottom"
                 >
-                  <IconButton  onClick={copyToClipboard} >
-                    <MdContentCopy size={25} style={{ cursor: 'pointer', color: "#151418" }}/>
+                  <IconButton onClick={copyToClipboard} >
+                    <MdContentCopy size={25} style={{ cursor: 'pointer', color: "#151418" }} />
                   </IconButton>
                 </Tooltip>
               </div>
               <a
                 className="btn PrimaryBtn btn-shadow"
-                href="mailto:pedro.sales.muniz@gmail.com"
+                href={`mailto:${userInfo.email}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
